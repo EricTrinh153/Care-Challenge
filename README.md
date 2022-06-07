@@ -25,7 +25,7 @@ To start application using this command
   - There are some ES6 functionalities I already included: Arrow function, String.includes(), const and let keyword, etc
    
    **Deliverable:**
-   ![alt text](https://tmpfiles.org/dl/309997/screenshot2022-06-07193225.png)
+   ![alt text](CryptoTable.png)
    
-   ![alt text](https://tmpfiles.org/dl/310001/screenshot2022-06-07193249.png)
+   ![alt text](CryptoDetails.png)
 
