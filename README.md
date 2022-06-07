@@ -1,70 +1,35 @@
-# Getting Started with Create React App
+# Care Crypto Challenge Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
-In the project directory, you can run:
+To clone the application using this command
+### `git clone https://github.com/EricTrinh153/Care-Challenge.git`
 
+Install all packages and dependencies before starting the application
+### `yarn install`
+
+To start application using this command
 ### `yarn start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+**Explanation:**
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+ - I created the application using different API url because the original url of Coinranking having CORS policy so I needed to turn on the CORS extension on my browser if I wanted to retrieve the data so that was why I chose to use the alternative API url of RapidAPI instead.
+ - I am not familiar with Typescript so I did this application without application the typescript template.
+ - Below are the requirements I completed based on the given documents
+    + Include the sorting function for 3 fields (Price, Market Cap and Change respectively)
+    + Include the onClick event which help the user to have information of a single crypto
+    + Include the searching function by name for users
+  - ReactAPI context: I used Redux to fetch and store data from API server which will be resuable for the next usage
+  - I imported Bootstrap library into the index.html file and applied styling for container and table so it can be consider as responsive.
+  - There are some ES6 functionalities I already included: Arrow function, String.includes(), const and let keyword, etc
+    
+  **Assumption:**
+   - My code is quite simple and there are not any complex functions or methods for me to write a unit test.
+   -> A larger scale project which has some consistent requirements for checking some specific functions so that lead to the need of Unit test.
+   
+   **Deliverable:**
+   ![alt text](https://tmpfiles.org/dl/309997/screenshot2022-06-07193225.png)
+   
+   ![alt text](https://tmpfiles.org/dl/310001/screenshot2022-06-07193249.png)
 
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
