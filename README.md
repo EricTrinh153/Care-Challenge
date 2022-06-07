@@ -23,10 +23,6 @@ To start application using this command
   - ReactAPI context: I used Redux to fetch and store data from API server which will be resuable for the next usage
   - I imported Bootstrap library into the index.html file and applied styling for container and table so it can be consider as responsive.
   - There are some ES6 functionalities I already included: Arrow function, String.includes(), const and let keyword, etc
-    
-  **Assumption:**
-   - My code is quite simple and there are not any complex functions or methods for me to write a unit test.
-   -> A larger scale project which has some consistent requirements for checking some specific functions so that lead to the need of Unit test.
    
    **Deliverable:**
    ![alt text](https://tmpfiles.org/dl/309997/screenshot2022-06-07193225.png)
